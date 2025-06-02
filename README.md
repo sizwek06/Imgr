@@ -1,5 +1,6 @@
 # Imgr
 This repository serves to host the Image viewing app
+
 Below is a quick guide to installation, happy/sad day scenarios and general information.
 
 # Insallation
