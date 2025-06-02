@@ -1,5 +1,5 @@
 # Imgr
-This repository serves to host the Image viewing app
+This repository serves to host the Image viewing app.
 
 Below is a quick guide to installation, happy/sad day scenarios and general information.
 
@@ -9,8 +9,7 @@ No additional software installation is required.
 # Minimum requirements:
 - Xcode Version 16.1 (16B40)
 - Simulator device: iPhone 16 | iOS 18.1 
-- (Location Permissions required and requested)
-- CoreData will be accessed
+- Photo Permissions required and requested
 
 # Visual Guide
 
