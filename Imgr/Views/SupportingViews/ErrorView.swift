@@ -29,12 +29,12 @@ struct ErrorView: View {
                 .resizable()
                 .frame(width: 95.0, height: 95.0)
                 .foregroundColor(.red)
-            Text(self.errorTitle)
+            Text("Error: \(self.errorTitle)")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding(.top, 20)
                 .frame(alignment: .center)
-                .frame(width: 100,
+                .frame(width: 300,
                        alignment: .top)
             Text(self.errorDescription)
                 .font(.title3)

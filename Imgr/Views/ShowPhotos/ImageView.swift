@@ -20,18 +20,6 @@ struct ImageView: View {
                     .frame(height: selectedImage != nil ? 300 : 200)
                 // Add share button & others?
                 Spacer()
-                Button(action: {
-                    showPhotoAlbum = true
-                }) {
-                    HStack {
-                        Text("Access Photos")
-                        Image(systemName: "photos")
-                    }
-                    .padding(.all, 25)
-                    .foregroundColor(.white)
-                    .background(.indigo)
-                    .cornerRadius(100)
-                }
             }
             .sheet(isPresented: $showPhotoAlbum) {
                 ImagePicker(selectedImage: $selectedImage)
